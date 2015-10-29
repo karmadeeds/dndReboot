@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<races>
+  <race name="Human" speed="30" size="medium" darkvision="no"/>
+  <race name="Elf" speed="35" size="large" darkvision="60 ft" />
+  <race name="Dwarf" speed="25" size="small" darkvision="60 ft" />
+</races>

@@ -1,0 +1,154 @@
+﻿<UserControl x:Class="dndReboot.View.CharacterSheetView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:dndReboot.Controls"
+             xmlns:md="clr-namespace:dndReboot.Model"
+             mc:Ignorable="d"
+             d:DataContext="{DynamicResource CharacterViewModel}"
+             
+             
+             KeyDown="UserControl_KeyDown"
+             >
+    <DockPanel>
+        <StackPanel Background="AntiqueWhite" Orientation="Horizontal" DockPanel.Dock="Top">
+            <TextBlock Text="{Binding MyCharacter.Name}" FontSize="24" VerticalAlignment="Center"></TextBlock>
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MyCharacter.Class.Name}" Padding="5,0"></Label>
+                        <Label Content="{Binding MyCharacter.Class.Level}" Padding="5,0"></Label>
+                    </StackPanel>
+                    <Label Content="Class/Level" Padding="5,0"></Label>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Center">
+                    <Label Content="{Binding MyCharacter.Race.Name}" Padding="5,0"></Label>
+                    <Label Content="Race" Padding="5,0"></Label>
+                </StackPanel>
+            </DockPanel>
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top" VerticalAlignment="Center">
+                    <Label Content="{Binding MyCharacter.Background}" Padding="5,0"></Label>
+                    <Label Content="Background" Padding="5,0"></Label>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Center">
+                    <Label Content="{Binding MyCharacter.Alignment}" Padding="5,0"></Label>
+                    <Label Content="Alignment" Padding="5,0"></Label>
+                </StackPanel>
+            </DockPanel>
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top">
+                    <Label Content="{Binding MyCharacter.PlayerName}" Padding="5,0"></Label>
+                    <Label Content="Player Name" Padding="5,0"></Label>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="XP: " Padding="5,0"/>
+                        <local:EditableTextBlock Text="{Binding Path=XP, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"></local:EditableTextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Character Level: " Padding="5,0"></Label>
+                        <Label Content="{Binding Path=CharacterLevel, Mode=TwoWay}" Padding="5,0"></Label>
+                    </StackPanel>
+
+                </StackPanel>
+            </DockPanel>
+
+        </StackPanel>
+        <Grid Background="PowderBlue" DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="18*"/>
+                <ColumnDefinition Width="31*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+
+        </Grid>
+        <StackPanel DockPanel.Dock="Left" Background="LightGray">
+        <ItemsControl BorderBrush="Black" BorderThickness="1" 
+                      ItemsSource="{Binding AllAbilities}"
+                      >
+        </ItemsControl>
+            <ContentControl>
+                <StackPanel Orientation="Horizontal">
+                    <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                        <Label Content="{Binding ProficiencyBonus}"/>
+                    </Border>
+                    <TextBlock Text="Proficiency Bonus"/>
+                </StackPanel>
+            </ContentControl>
+            <ContentControl>
+                <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding MyCharacter.Wis.Skills[4].Passive}"/>
+                        <Label Content="Passive Wisdom"/>
+                    </StackPanel>
+                </Border>
+            </ContentControl>
+        </StackPanel>
+
+        <Grid Background="LightCoral" DockPanel.Dock="Right" MinWidth="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="0">
+
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="1">
+
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="2">
+
+            </Border>
+        </Grid>
+
+        <Grid Background="LightGreen" MinWidth="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Ellipse Grid.Row="0" StrokeThickness="1" Stroke="Black"></Ellipse>
+                    <StackPanel Grid.Row="0" Grid.Column="0">
+                        <Label Content="AC" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <Label Content="14" HorizontalAlignment="Center"></Label>
+                    </StackPanel>
+                    <Rectangle Grid.Column="1" Stroke="Black" StrokeThickness="1" RadiusX="10" RadiusY="10" Margin="3"></Rectangle>
+                    <Label Grid.Column="1" ContentStringFormat="Initiative &#x0a; {0}" Content="{Binding MyCharacter.Dex.Bonus}" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           />
+                    <Rectangle Grid.Column="2" Stroke="Black" StrokeThickness="1" RadiusX="10" RadiusY="10" Margin="3"></Rectangle>
+                    <Label Grid.Column="2" ContentStringFormat="Speed &#x0a; {0}" Content="{Binding MyCharacter.Race.Speed}" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           />
+                </Grid>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="1">
+                
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="2" CornerRadius="10" Grid.Row="2">
+
+            </Border>
+        </Grid>
+    </DockPanel>
+
+
+</UserControl>

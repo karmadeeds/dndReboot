@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED0E30F7-686C-4BF1-8158-F87AE8C81134}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dndReboot</RootNamespace>
+    <AssemblyName>dndReboot</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.97.0\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.97.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.97.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Commands\AddRaceCommand.cs" />
+    <Compile Include="Commands\RelayCommand.cs" />
+    <Compile Include="Commands\TypeCommand.cs" />
+    <Compile Include="Controls\EditableTextBlock.xaml.cs">
+      <DependentUpon>EditableTextBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\AbilityDBConverter.cs" />
+    <Compile Include="DataAccess\AbilityRepository.cs" />
+    <Compile Include="DataAccess\CharacterAddedEventArgs.cs" />
+    <Compile Include="DataAccess\CharacterRepository.cs" />
+    <Compile Include="DataAccess\FeatureAddedEventArgs.cs" />
+    <Compile Include="DataAccess\FeatureRepository.cs" />
+    <Compile Include="DataAccess\RaceAddedEventArgs.cs" />
+    <Compile Include="DataAccess\RaceRepository.cs" />
+    <Compile Include="Model\Ability.cs" />
+    <Compile Include="Model\Character.cs" />
+    <Compile Include="Model\Classes\Barbarian.cs" />
+    <Compile Include="Model\Classes\Bard.cs" />
+    <Compile Include="Model\Classes\CharacterClass.cs" />
+    <Compile Include="Model\Classes\Cleric.cs" />
+    <Compile Include="Model\Feature.cs" />
+    <Compile Include="Model\ModelBase.cs" />
+    <Compile Include="Model\Race.cs" />
+    <Compile Include="Model\Skill.cs" />
+    <Compile Include="Utilities\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Utilities\EnumBase.cs" />
+    <Compile Include="Utilities\EnumDescriptionConverter.cs" />
+    <Compile Include="Utilities\ListBoxExtensions.cs" />
+    <Compile Include="Utilities\ObservableCollectionToValueDescription.cs" />
+    <Compile Include="Utilities\ObservableExtension.cs" />
+    <Compile Include="Utilities\RaceSelectionToIsCheckedConverter.cs" />
+    <Compile Include="Utilities\SelectionChangedBehaviour.cs" />
+    <Compile Include="Utilities\Utility.cs" />
+    <Compile Include="PropertyNotification\CancelPropertyNotificationEventArgs.cs" />
+    <Compile Include="PropertyNotification\IPropertyNotification.cs" />
+    <Compile Include="PropertyNotification\PropertyNotificationEventArgs.cs" />
+    <Compile Include="PropertyNotification\PropertyNotificationObject.cs" />
+    <Compile Include="PropertyNotification\TestObject.cs" />
+    <Compile Include="Utilities\DBConverter.cs" />
+    <Compile Include="ViewModel\AbilityBonusViewModel.cs" />
+    <Compile Include="ViewModel\AbilityViewModel.cs" />
+    <Compile Include="ViewModel\ArmorProficiencyViewModel.cs" />
+    <Compile Include="ViewModel\CharacterCreationViewModel.cs" />
+    <Compile Include="ViewModel\CharacterViewModel.cs" />
+    <Compile Include="ViewModel\FeatureViewModel.cs" />
+    <Compile Include="ViewModel\IndexViewModel.cs" />
+    <Compile Include="ViewModel\LanguageProficiencyViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="ViewModel\NavMenuViewModel.cs" />
+    <Compile Include="ViewModel\RaceCreationViewModel.cs" />
+    <Compile Include="ViewModel\RaceListViewModel.cs" />
+    <Compile Include="ViewModel\RaceViewModel.cs" />
+    <Compile Include="ViewModel\RaceViewModelTest.cs" />
+    <Compile Include="ViewModel\SkillProficiencyViewModel.cs" />
+    <Compile Include="ViewModel\SkillViewModel.cs" />
+    <Compile Include="ViewModel\TestViewModel.cs" />
+    <Compile Include="ViewModel\ToolProficiencyViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\WeaponProficiencyViewModel.cs" />
+    <Compile Include="View\AbilityBonusView.xaml.cs">
+      <DependentUpon>AbilityBonusView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AbilityView.xaml.cs">
+      <DependentUpon>AbilityView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddProficienciesView.xaml.cs">
+      <DependentUpon>AddProficienciesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddRaceView.xaml.cs">
+      <DependentUpon>AddRaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddRacialFeatureView.xaml.cs">
+      <DependentUpon>AddRacialFeatureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CharacterCreationView.xaml.cs">
+      <DependentUpon>CharacterCreationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CharacterSheetView.xaml.cs">
+      <DependentUpon>CharacterSheetView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CharacterView.xaml.cs">
+      <DependentUpon>CharacterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FeatureView.xaml.cs">
+      <DependentUpon>FeatureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\IndexView.xaml.cs">
+      <DependentUpon>IndexView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MockUIWindow.xaml.cs">
+      <DependentUpon>MockUIWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NavMenu.xaml.cs">
+      <DependentUpon>NavMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RaceListView.xaml.cs">
+      <DependentUpon>RaceListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RaceView.xaml.cs">
+      <DependentUpon>RaceView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RaceViewGrid.xaml.cs">
+      <DependentUpon>RaceViewGrid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RacialFeatureView.xaml.cs">
+      <DependentUpon>RacialFeatureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Roll.xaml.cs">
+      <DependentUpon>Roll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TestView.xaml.cs">
+      <DependentUpon>TestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\XP-Prof-LvL-Test.xaml.cs">
+      <DependentUpon>XP-Prof-LvL-Test.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\EditableTextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="MainWindowResources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AbilityBonusView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AbilityView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddProficienciesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddRaceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddRacialFeatureView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CharacterCreationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CharacterSheetView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CharacterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FeatureView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\IndexView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MockUIWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NavMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RaceListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RaceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RaceViewGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RacialFeatureView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Roll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TestView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\XP-Prof-LvL-Test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\races.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\Abilities.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.97.0\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

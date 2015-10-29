@@ -1,0 +1,71 @@
+﻿<Application x:Class="dndReboot.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:dndReboot.ViewModel"
+             xmlns:vw="clr-namespace:dndReboot.View"
+             xmlns:md="clr-namespace:dndReboot.Model"
+             xmlns:local="clr-namespace:dndReboot.Utilities"
+             >
+    <Application.Resources>
+
+        <ControlTemplate x:Key="Ability">
+            <StackPanel>
+                <ComboBox ItemsSource="{Binding AbilityList}" DisplayMemberPath="Description" Width="90"/>
+                <ComboBox Width="90">
+                    <ComboBoxItem Content="-2"/>
+                    <ComboBoxItem Content="-1"/>
+                    <ComboBoxItem Content="+1"/>
+                    <ComboBoxItem Content="+2"/>
+                </ComboBox>
+            </StackPanel>
+        </ControlTemplate>
+        <Style TargetType="{x:Type UserControl}">
+            <Setter Property="Background" Value="White"/>
+        </Style>
+        <local:EnumBase x:Key="enum"/>
+        <vm:CharacterViewModel x:Key="Namfoodle"/>
+        <vm:AbilityViewModel x:Key="AbilityViewModel"/>
+        <vm:CharacterViewModel x:Key="CharacterViewModel"/>
+        <local:BooleanToVisibilityConverter x:Key="BoolConverter"/>
+        <vm:RaceCreationViewModel x:Key="RaceCreationViewModel"/>
+        <vm:WeaponProficiencyViewModel x:Key="WeaponProficiencyViewModel"/>
+        <vm:AbilityBonusViewModel x:Key="AbilityBonusViewModel"/>
+        <vm:RaceViewModelTest x:Key="RaceVM"/>
+        <vm:CharacterCreationViewModel x:Key="CharacterCreationViewModel" />
+        <vm:TestViewModel x:Key="TestViewModel"/>
+        <vm:RaceViewModelTest x:Key="RaceViewModelTest"/>
+        
+
+        <!--<DataTemplate DataType="{x:Type vm:RaceListViewModel}">
+            <vw:RaceListView />
+        </DataTemplate>-->
+        <DataTemplate DataType="{x:Type vm:CharacterViewModel}">
+            <vw:CharacterView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:FeatureViewModel}">
+            <vw:FeatureView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:IndexViewModel}">
+            <vw:IndexView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:AbilityViewModel}">
+            <vw:AbilityView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RaceViewModel}">
+            <vw:RaceView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:AbilityBonusViewModel}">
+            <vw:AbilityBonusView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RaceViewModelTest}">
+            <vw:RaceViewGrid/>
+        </DataTemplate>
+
+        <!--<DataTemplate DataType="{x:Type vm:CharacterSheetViewModel}">
+            <vw:CharacterSheetView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CharacterCreationViewModel}">
+            <vw:CharacterCreationView/>
+        </DataTemplate>-->
+    </Application.Resources>
+</Application>

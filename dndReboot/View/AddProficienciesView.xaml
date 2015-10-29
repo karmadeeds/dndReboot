@@ -1,0 +1,47 @@
+﻿<Window x:Name="AddProficiencyWindow" x:Class="dndReboot.View.AddProficienciesView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:vm="clr-namespace:dndReboot.ViewModel"
+        xmlns:view="clr-namespace:dndReboot.View"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:local="clr-namespace:dndReboot.Utilities"
+        mc:Ignorable="d" 
+        Title="AddProficienciesView" Height="500" Width="500" d:DataContext="{StaticResource WeaponProficiencyViewModel}" Loaded="Window_Loaded">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Add Proficiencies" Command="{Binding DoStuffCommand}" CommandParameter="{Binding ElementName=Selected}" />
+            <Button Content="Confirm" Command="{Binding ConfirmCommand}" CommandParameter="{Binding ElementName=AddProficiencyWindow}"/>
+        </StackPanel>
+        <ItemsControl ItemsSource="{Binding AllProficiencies}" SnapsToDevicePixels="True">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="2" SnapsToDevicePixels="True">
+
+                    </UniformGrid>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <CheckBox 
+                            SnapsToDevicePixels="True"
+                            Content="{Binding Description}"
+                            IsChecked="{Binding IsChecked, Mode=TwoWay}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <ItemsControl Name="Selected" ItemsSource="{Binding SelectedProficiencies}" >
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding Description}"
+                           
+                           />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,60 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit" 
+    x:Class="ConvertersInWPF.Window1"
+    xmlns:converter="clr-namespace:ConvertersInWPF.Converters"
+    Title="Converters In WPF" Height="300" Width="428.214">
+    <Window.Resources>
+        <converter:StatusToColor x:Key="statusToColor"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="284.809*" />
+            <ColumnDefinition Width="121.405*" />
+        </Grid.ColumnDefinitions>
+        <Custom:DataGrid x:Name="dgRequests" 
+                         AutoGenerateColumns="False" 
+                         CanUserAddRows="False">
+            <Custom:DataGrid.Columns>
+                <Custom:DataGridTextColumn Header="Title of Request" 
+                                           Binding="{Binding Title}" Width="*"/>
+                <Custom:DataGridTemplateColumn Header="Status" Width="100">
+                    <Custom:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border >
+                                <Rectangle Margin="1" Stroke="Black" 
+                                           StrokeThickness="1"
+                                           Fill="{Binding RequestStatus, Converter={StaticResource statusToColor}}"/>
+                            </Border>
+                        </DataTemplate>
+                    </Custom:DataGridTemplateColumn.CellTemplate>
+                </Custom:DataGridTemplateColumn>
+            </Custom:DataGrid.Columns>
+        </Custom:DataGrid>
+        
+        <StackPanel Margin="6.003,12,0,12" Name="stackPanel1" Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Height="10" Stroke="Black" StrokeThickness="1" Fill="Red"/>
+                <TextBlock Text="  Submitted"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Height="10" Stroke="Black" StrokeThickness="1" Fill="Orange"/>
+                <TextBlock Text="  Assigned"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Height="10" Stroke="Black" StrokeThickness="1" Fill="Gold"/>
+                <TextBlock Text="  InProgress"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Height="10" Stroke="Black" StrokeThickness="1" Fill="YellowGreen"/>
+                <TextBlock Text="  Resolved"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="10" Height="10" Stroke="Black" StrokeThickness="1" Fill="Gray"/>
+                <TextBlock Text="  Closed"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

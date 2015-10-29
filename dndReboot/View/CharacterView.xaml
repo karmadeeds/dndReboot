@@ -1,0 +1,110 @@
+﻿<UserControl x:Class="dndReboot.View.CharacterView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:m="clr-namespace:dndReboot.Model"
+             xmlns:vm="clr-namespace:dndReboot.ViewModel"
+             xmlns:vw="clr-namespace:dndReboot.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300"
+             d:DesignWidth="500"    
+             d:DataContext="{DynamicResource Namfoodle}"
+             >
+
+    <StackPanel Background="White">
+        
+        <ContentControl Content="{Binding}">
+            <ContentControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <TextBox Text="{Binding Name}" />
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel>
+                                    <Label ContentStringFormat="Strength {0}" Content="{Binding Str.Value}" />
+                                    <Label ContentStringFormat="Dexterity {0}" Content="{Binding Dex.Value}" />
+                                    <Label ContentStringFormat="Consion {0}" Content="{Binding Con.Value}" />
+                                </StackPanel>
+                                <StackPanel>
+                                    <Label ContentStringFormat="Intelligence {0}" Content="{Binding Int.Value}" />
+                                    <Label ContentStringFormat="Wisdom {0}" Content="{Binding Wis.Value}" />
+                                    <Label ContentStringFormat="Charisma {0}" Content="{Binding Chr.Value}" />
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.ContentTemplate>
+        </ContentControl>
+        
+        <!--<ItemsControl ItemsSource="{Binding AllCharacters}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <TextBox Text="{Binding Name}" />
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel>
+                                    <Label ContentStringFormat="Strength {0}" Content="{Binding Strength}" />
+                                    <Label ContentStringFormat="Dexterity {0}" Content="{Binding Dexterity}" />
+                                    <Label ContentStringFormat="Constitution {0}" Content="{Binding Constitution}" />
+                                </StackPanel>
+                                <StackPanel>
+                                    <Label ContentStringFormat="Intelligence {0}" Content="{Binding Intelligence}" />
+                                    <Label ContentStringFormat="Wisdom {0}" Content="{Binding Wisdom}" />
+                                    <Label ContentStringFormat="Charisma {0}" Content="{Binding Charisma}" />
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>-->
+        
+        <Button Content="Roll For it" Command="{Binding RollCommand}" Width="100" HorizontalAlignment="Left">
+            <!--<Button.DataContext>
+                <vm:CharacterViewModel/>
+            </Button.DataContext>-->
+
+        </Button>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Alignment" />
+            <ComboBox VerticalAlignment="Top" Width="100"
+                                      ItemsSource="{Binding Path=AlignmentList}"
+                                      SelectedValuePath="Value"
+                                      DisplayMemberPath="Description"
+                                      SelectedValue="{Binding Path=SelectedAlignment}"
+                                      >
+                <ComboBox.DataContext>
+                    <vm:CharacterCreationViewModel></vm:CharacterCreationViewModel>
+                </ComboBox.DataContext>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Races" />
+            <ComboBox VerticalAlignment="Top" Width="100"
+                                      ItemsSource="{Binding Path=RaceList}"
+                                      SelectedValuePath="Value"
+                                      DisplayMemberPath="Description"
+                                      SelectedValue="{Binding MyRace}"
+                                      >
+                <!--<ComboBox.DataContext>
+                    <vm:CharacterCreationViewModel/>
+                </ComboBox.DataContext>-->
+            </ComboBox>
+        </StackPanel>
+        <!--<ContentControl Content="{Binding Character}">
+            <ContentControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{Binding Name}"/>
+                        <Label Content="{Binding Strength}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.ContentTemplate>
+
+        </ContentControl>-->
+
+    </StackPanel>
+</UserControl>

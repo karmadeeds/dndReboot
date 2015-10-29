@@ -1,0 +1,513 @@
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\App.g.cs
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\AllRacesView.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\AllRacesView.g.cs
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\VariableBulletList.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\VariableBulletList.g.cs
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\Derek\documents\visual studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\Derek\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Documents\Visual Studio 2012\Projects\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\deep thought\Desktop\521\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\dadams\Desktop\526\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.baml
+C:\Users\dadams\Desktop\601 - Edit\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\AddRaceVIew.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\AddRaceVIew.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\Derek\Desktop\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\TestView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\TestView.g.cs
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.baml
+C:\Users\dadams\Desktop\617Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\TestView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\TestView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddRacialFeatureView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\AddRacialFeatureView.g.cs
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RacialFeatureView.baml
+C:\Users\dadams\Desktop\701Build\dndReboot\dndReboot\obj\Debug\View\RacialFeatureView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe.config
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\dndReboot.exe
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\dndReboot.pdb
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\EntityFramework.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\EntityFramework.xml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\System.Data.SQLite.xml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.csprojResolveAssemblyReference.cache
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RacialFeatureView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\Roll.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\TestView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\Controls\EditableTextBlock.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\MainWindow.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddRacialFeatureView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\IndexView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\MockUIWindow.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\NavMenu.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceViewGrid.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RacialFeatureView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\Roll.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\TestView.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\App.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.cache
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot_MarkupCompile.lref
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\App.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\MainWindow.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\MainWindowResources.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AbilityBonusView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AbilityView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddProficienciesView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddRaceView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\AddRacialFeatureView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterCreationView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterSheetView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\CharacterView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\FeatureView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\IndexView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceListView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\RaceView.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\View\XP-Prof-LvL-Test.baml
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.g.resources
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.Properties.Resources.resources
+C:\Users\dadams\Desktop\713Build\dndReboot\dndReboot\obj\Debug\dndReboot.csproj.GenerateResource.Cache

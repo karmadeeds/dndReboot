@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="dndReboot.View.NavMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="100">
+    <UserControl.Resources>
+        <Style TargetType="Label" x:Key="Labels" >
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="BorderBrush" Value="#FFABADB3"/>
+            <Setter Property="BorderThickness" Value="0,1,1,1"/>
+        </Style>
+    </UserControl.Resources>
+    <StackPanel Background="White">
+        <ListView BorderThickness="0,1,1,1" FontSize="8">
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Name</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Alignment</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Race</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Background</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Set Experience</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Roll For Stats</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Class</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Starting Equipment</TextBlock>
+            </ListViewItem>
+            <ListViewItem>
+                <TextBlock>&#x2022; Pick Spells</TextBlock>
+            </ListViewItem>
+        </ListView>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="dndReboot.View.RacialFeatureView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="500">
+    <StackPanel Orientation="Horizontal">
+        <TextBox Text="Name"/>
+        <TextBox Text="Explanation"/>
+        <ComboBox MinWidth="100" IsReadOnly="True" Text="Please Select">
+            <ComboBoxItem Content="Ability Roll"/>
+            <ComboBoxItem Content="Attack Roll"/>
+            <ComboBoxItem Content=""></ComboBoxItem>
+        </ComboBox>
+        <ComboBox MinWidth="100" Text="Please Select">
+            <ComboBoxItem Content="Advantage"/>
+            <ComboBoxItem Content="Roll Modifier"/>
+            <ComboBoxItem Content="Double Prof Bonus"/>
+        </ComboBox>
+        <ComboBox MinWidth="100">
+            <ComboBoxItem Content="Short Rest"/>
+            <ComboBoxItem Content="Long Rest"/>
+            <ComboBoxItem Content="Daily"/>
+        </ComboBox>
+    </StackPanel>
+</UserControl>

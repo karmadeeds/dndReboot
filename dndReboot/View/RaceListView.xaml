@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="dndReboot.View.RaceListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:dndReboot.ViewModel"
+             xmlns:vw="clr-namespace:dndReboot.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" d:DataContext="" Width="900">
+    <UserControl.Resources>
+        <Style TargetType="Label" x:Key="Labels" >
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="BorderBrush" Value="#FFABADB3"/>
+            <Setter Property="BorderThickness" Value="0,1,1,1"/>
+        </Style>
+
+    </UserControl.Resources>
+
+    <StackPanel Background="{Binding BackgroundBrush}">
+        <Grid Background="White" Height="50" Width="915">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="Race" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="1" Content="Ability Score Increase" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="2" Content="Speed" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="3" Content="Size" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="4" Content="Darkvision" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="5" Content="Languages" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="6" Content="Proficiencies" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Column="7" Content="Racial Traits" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Grid>
+        <ItemsControl ItemsSource="{Binding AllRaces}" Background="White">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton Style="{DynamicResource {x:Type ToggleButton}}" Width="50" Content="{Binding Name}" GroupName="MainRace"/>
+                        <ListBox Width="150" ItemsSource="{Binding AbilityScoreBonuses}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock>&#x2022;</TextBlock>
+                                        <TextBlock Text="{Binding Name}"/>
+                                        <TextBlock Text="{Binding Bonus}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <Label Content="{Binding Speed}" Width="50" Style="{StaticResource ResourceKey=Labels}"/>
+                        <Label Content="{Binding Size}" Width="50" Style="{StaticResource ResourceKey=Labels}" />
+                        <Label Content="{Binding Darkvision}" Width="100" Style="{StaticResource ResourceKey=Labels}" />
+                        <ListBox ItemsSource="{Binding Languages}" Width="150">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock>&#x2022;</TextBlock>
+                                        <TextBlock Text="{Binding}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <ListBox ItemsSource="{Binding Proficiencies}" Width="150">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock>&#x2022;</TextBlock>
+                                        <TextBlock Text="{Binding}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <ListBox ItemsSource="{Binding RacialTraits}" Width="200">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock>&#x2022;</TextBlock>
+                                        <TextBlock Text="{Binding}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <Button Content="Check for Invasion" Width="120" Command="{Binding InvasionCommand}" />
+    </StackPanel>
+</UserControl>

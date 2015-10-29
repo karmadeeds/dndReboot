@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="dndReboot.View.CharacterCreationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:dndReboot.Controls"
+             xmlns:vw="clr-namespace:dndReboot.View"
+             xmlns:vm="clr-namespace:dndReboot.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="900" d:DataContext="{DynamicResource CharacterCreationViewModel}">
+
+    <Grid>
+        
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <TextBox Text="{Binding NewCharacter.Name}" Height="20" VerticalAlignment="Top"/>
+                <TextBlock Text="{Binding SelectedRace.Name}"/>
+            </StackPanel>
+            <ItemsControl DataContext="{StaticResource Namfoodle}" ItemsSource="{Binding MyCharacter.Abilities}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="{Binding Name}"/>
+                            <local:EditableTextBlock Text="{Binding Value, Mode=TwoWay}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <StackPanel>
+                <ComboBox ItemsSource="{Binding AlignmentList}"
+                      MinWidth="150"
+                      Height="30"
+                      SelectedValuePath="Value"
+                      DisplayMemberPath="Description"
+                      SelectedValue="{Binding Path=SelectedAlignment}"
+                      />
+                <ComboBox ItemsSource="{Binding RaceList}"
+                      Height="30"
+                      DisplayMemberPath="Name"
+                      SelectedValue="{Binding Path=SelectedRace, Mode=TwoWay}"
+                      />
+                <ComboBox ItemsSource="{Binding BackgroundList}"
+                      Height="30"
+                      SelectedValuePath="Value"
+                      DisplayMemberPath="Description"
+                      SelectedValue="{Binding Path=SelectedBackground}"
+                      />
+                <Button Content="Test Button" Command="{Binding TestCommand}" CommandParameter="{Binding ElementName=DataGrid}"/>
+                <Button Content="Update Race List" Command="{Binding UpdateListCommand}" CommandParameter="{Binding ElementName=rvg}"/>
+            </StackPanel>
+            <!--<HeaderedItemsControl ItemsSource="{Binding AllRaces}">
+                <HeaderedItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>                            
+                            <TextBlock Text="{Binding Name}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </HeaderedItemsControl.ItemTemplate>
+            </HeaderedItemsControl>-->
+            <!--<ContentControl Content="{Binding RaceViewModelTest}"/>-->
+            <DataGrid Name="DataGrid" ItemsSource="{Binding AllRaces}">
+                <DataGrid.Template>
+                    <ControlTemplate>
+                        <vw:RaceViewGrid/>
+                    </ControlTemplate>                    
+                </DataGrid.Template>
+            </DataGrid>
+            <!--<vw:RaceViewGrid x:Name="rvg" DataContext="{Binding RaceViewModelTest}"/>-->
+        </StackPanel>
+    </Grid>
+</UserControl>
